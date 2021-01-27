@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="application.js"></script>
+  <script src="service-worker.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>
+  
+   <style>
+       
+       *{
+           padding: 8px;
+           margin: 0;
+       }
+       
+       .mega-div{
+            max-width: 800px;           
+
+       }
+       
+       .header-div{
+           background-color: orangered;
+           display: flex
+       }
+       
+       #secret{
+           color: white;
+           font-size: 75px;
+           margin-left: 15px;
+       }
+       
+       #free{
+           font-size: 25px;
+           margin-right: 15px;
+           color: white;
+       }
+    
+       .optin-div{
+        display: flex;
+           margin-bottom: 2%
+       }
+       
+       
+       .email-div{
+           background-color: lightgoldenrodyellow;
+           border-color: black;
+           border-width: thick;
+           width: 300px;
+           margin-left: 4%;
+           outline: thick solid #000000;
+       }
+       
+       #btn{
+           font-size: 20px;
+           background-color: green;
+           padding: 20px;
+           color: white;
+           margin-top: 1.5%; 
+       }
+       
+       #textinput{
+           margin: 1.3%;
+           background-repeat: no-repeat;
+           
+       }
+       
+       .last-div{
+          display: flex;
+       }
+       
+       #list{
+            font-size: 23px
+       }
+       
+       ul {
+        list-style-image: url('https://picresize.com/images/rsz_arrow_right.png');
+           text-align: left;
+       }
+       
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width=1.0">
+    <title>Push Notifications Test</title>
+</head>
+<body><center>
+   <div class="mega-div">
+    <div class="header-div">
+        <h1 id="secret">SECRET:</h1>
+        <h4 id="free">FREE Video Exposes how One Newbie Banked $11692 in 2 Days with NO PRIOR KNOWLEDGE</h4>
+    </div>
+    
+    <div class="optin-div">
+        <img src="https://images.clickfunnels.com/e4/0c52b07e2611e8826f9509f41e62dd/ms-blackbook-chained.png" width="250px;">
+        <img src="https://images.clickfunnels.com/b2/ceb3207aff11e8aef74555c2e1ea77/bluearrows1-transparent.gif" alt="img" style="margin-top: 7%; margin-left: 5%;" height="200px;">
+        
+        <div class="email-div">
+            <h2> FREE INSTANT ACCESS</h2>
+            <h3 style="text-align: left"> Sign Up Now and get<span style="color: orangered">The EXACT Same Strategy</span> That One Kid Used To Transform His Entire Life Before He Even Graduated High School</h3>
+            <input type="text" placeholder="Your Name" id="textinput">
+            <input type="text" placeholder="Your Email Address" id="textinput"><br>
+            <button id="btn">Get This Now!</button>
+        </div>
+           
+    </div>
+    <h1 style="color: orangered;">The Strategy That Generated $12k in 2 Days</h1>
+    <div class="last-div">
+        <ul id="list">
+            <li>Hack 1:<span style="color: grey">Nam eget dictum lacus, non efficitur</span></li>
+            <li>Hack 2:<span style="color: grey">Vestibulum dignissim nunc eget</span></li>
+            <li>Hack 3:<span style="color: grey">Aliquam sed fermentum lectus</span></li>
+        </ul>
+        <iframe width="450" height="220" src="https://www.youtube.com/embed/v1wtZiW00ZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <p style="text-align: left; color: gray;">Nulla purus magna, ullamcorper ac elit vel, ultiriies pretinum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus<br><br> PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</center></body>
+</html>
